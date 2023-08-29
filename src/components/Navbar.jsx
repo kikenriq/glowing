@@ -25,7 +25,7 @@ const Navbar = () => {
             </a>
         </div>
 
-        <div className={`${mobileNav ? 'left-0' : '-left-full'} fixed top-0 transition-all bottom-0 z-30 w-screen bg-white h-screen py-[25px] px-[40px]`}>
+        <div className={`${mobileNav ? 'left-0' : '-left-full'} fixed top-0 transition-all duration-500 bottom-0 z-40 w-screen bg-white h-screen py-[25px] px-[40px]`}>
             <div className='flex flex-row justify-between items-center mb-14'>
                 <img className='h-6' src={Logo} alt="" />
 

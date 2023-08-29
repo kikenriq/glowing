@@ -2,9 +2,9 @@ import React from 'react'
 
 const Items = (props) => {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
         <div>
-            <img className='h-full' src={props.images} alt="" />
+            <img className='' src={props.images} alt="" />
         </div>
         <div className='flex flex-col items-center'>
             <h1 className='text-[16px] font-semibold text-black '>{props.price}</h1>
