@@ -24,7 +24,7 @@ const Products = () => {
 
         <div>
             <ul className='flex overflow-x-auto gap-16'>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -32,7 +32,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -40,7 +40,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -48,7 +48,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -56,7 +56,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -64,7 +64,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -80,7 +80,7 @@ const Products = () => {
             </div>
     
             <ul className='flex overflow-x-auto gap-16'>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -88,7 +88,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -96,7 +96,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -104,7 +104,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -112,7 +112,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -120,7 +120,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'

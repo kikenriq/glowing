@@ -3,7 +3,7 @@ import logo1 from '../assets/images/pay.png'
 
 const Footer = () => {
   return (
-    <footer className=' w-screen px-10 flex flex-col gap-12'>
+    <footer className='w-screen pt-32 px-10 grid md:grid-cols-3 md:gap-6 gap-12'>
         <div>
             <a href="#" className='text-[20px] text-black font-semibold'>Company</a>
             <p className='text-[14px]'>Find a location nearest you. See <a href="#">Our Stores</a></p>

@@ -10,7 +10,7 @@ const Discover = () => {
             <h1 className='text-[40px] font-semibold text-center text-black'>More to Discover</h1>
         </div>
 
-        <ul className='pt-[50px] grid md:grid-cols-2 md:gap-10'>
+        <ul className='pt-[50px] grid md:grid-cols-2 lg:grid-cols-3 md:gap-10'>
             <li>
                 <div className='flex flex-col pt-10 gap-4 items-center'>
                     <figure className='max-w-[450px] overflow-hidden'>

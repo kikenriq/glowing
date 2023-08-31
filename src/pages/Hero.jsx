@@ -49,7 +49,7 @@ const Hero = () => {
     </div>
 
 
-    <div className='pt-[10px] px-4 flex gap-5 flex-col overflow-hidden'>
+    <div className='pt-[10px] px-4 grid lg:grid-cols-3 gap-5 overflow-hidden'>
                 <Card 
                 title='Summer Collection'
                 price='Starting at $17.99'

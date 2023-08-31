@@ -4,10 +4,10 @@ import offer2 from '../assets/images/offer-banner-2.jpg'
 
 const Offer = () => {
   return (
-    <div className='px-10 pt-20'>
+    <div className='px-10 pt-20 grid mb-14 lg:px-32 lg:grid-cols-2 lg:gap-24'>
         <div className='flex gap-7 justify-center items-center'>
-            <img className='h-[150px] md:h-[350px]' src={offer1} alt="" />
-            <img className='h-[250px] md:h-[550px]' src={offer2} alt="" />
+            <img className='h-[150px] md:h-[350px] lg:h-[250px]' src={offer1} alt="" />
+            <img className='h-[250px] md:h-[550px] lg:h-[350px]' src={offer2} alt="" />
         </div>
 
         <div className='pt-[100px]'>

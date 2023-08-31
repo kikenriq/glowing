@@ -7,7 +7,7 @@ import Card3 from '../assets/images/collection-1.jpg'
 
 const Card = (props) => {
   return (
-    <div className='relative h-[400px] overflow-hidden'>
+    <div className='relative h-[400px] lg:h-[500px] overflow-hidden'>
         <div className='absolute z-30 px-10 py-12'>
             <h2 className='font-semibold text-black text-3xl'>{props.title} </h2>
             <p className=' text-black text-[18px] font-semibold'>{props.price}</p>
