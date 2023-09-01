@@ -32,27 +32,43 @@ const Navbar = () => {
             </a>
         </div>
 
-        <div className='lg:hidden xl:flex flex flex-row justify-between py-5 px-3'>
-                <div>
-                        <input type="search" name="" id="" />
+        <div className='hidden xl:flex items-center flex-row justify-between py-5 px-3'>
+                <div className='flex py-[10px] px-[20px] relative text-xl border border-[--hoockers-green]'>
+                        <input className='text-[18px] w-full' placeholder='Search' type="search" name="" id="" />
+                        <button className='absolute right-[15px] text-[30px]'>
+                            <ion-icon className='' name="search-outline"></ion-icon>
+                        </button>
                 </div>
 
                 <a href="#">
                     <img className='h-7' src={Logo} alt="" />
                 </a>
 
-                <div>
+                <div className='flex text-3xl gap-5 items-center stroke-2'>
                     <a href="#">
-                        
+                         <ion-icon name="person-outline"></ion-icon>
                     </a>
                     <a href="#">
-
+                        <ion-icon name="star-outline"></ion-icon>
                     </a>
-                    <a href="#">
-
-                    </a>
+                    <div className='flex items-center gap-1'>
+                        <p className='text-[18px]'>0.00$</p>
+                        <a href="#">
+                            <ion-icon className='' name="bag-outline"></ion-icon>
+                        </a>
+                    </div>
                 </div>
 
+        </div>
+
+        <div className={`${isActive ? 'bg-white fixed z-50 transition-all ease-in-out shadow-lg' : 'bg-white'} hidden xl:flex justify-center w-screen `}>
+            <ul className='flex justify-center py-3 items-center gap-8 text-black text-[20px]'>
+                <li><a className='hover:text-[--hoockers-green]' href="#">Home</a></li>
+                <li><a className='hover:text-[--hoockers-green]' href="#">About</a></li>
+                <li><a className='hover:text-[--hoockers-green]' href="#">Products</a></li>
+                <li><a className='hover:text-[--hoockers-green]' href="#">Blog</a></li>
+                <li><a className='hover:text-[--hoockers-green]' href="#">Contact</a></li>
+            </ul>
         </div>
 
 

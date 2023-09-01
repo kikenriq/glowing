@@ -17,14 +17,14 @@ import Items from '../components/Items'
 const Products = () => {
   return (
     <div className='px-4 pt-20 h-auto'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col xl:flex-row xl:justify-between'>
             <h1 className='text-black font-semibold text-[33px]'>Our Bestsellers</h1>
             <p className='text-[15px] gap-1 font-semibold pt-5 text-black flex items-center'>Shop All Products <span><ion-icon name="arrow-forward"></ion-icon></span></p>
         </div>
 
         <div>
-            <ul className='flex overflow-x-auto gap-16'>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+            <ul className='flex overflow-x-auto gap-16 xl:gap-8'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -32,7 +32,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -40,7 +40,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -48,7 +48,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -56,7 +56,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -64,7 +64,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -74,13 +74,13 @@ const Products = () => {
                 </li>
             </ul>
 
-            <div className='pt-20 flex items-center'>
+            <div className='pt-20 flex items-center justify-between'>
                 <h1 className='text-black font-semibold text-[33px]'>Under $25</h1>
                 <p className='text-[15px] gap-1 font-semibold pt-5 text-black flex items-center'>Shop All Products <span><ion-icon name="arrow-forward"></ion-icon></span></p>
             </div>
     
-            <ul className='flex overflow-x-auto gap-16'>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+            <ul className='flex overflow-x-auto gap-16 xl:gap-8'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -88,7 +88,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -96,7 +96,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -104,7 +104,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -112,7 +112,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
@@ -120,7 +120,7 @@ const Products = () => {
                     review='5170 reviews'
                     />
                 </li>
-                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)]'>
+                <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
                     price='$4.11'
