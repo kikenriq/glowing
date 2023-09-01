@@ -23,7 +23,7 @@ const Products = () => {
         </div>
 
         <div>
-            <ul className='flex overflow-x-auto gap-16 xl:gap-8'>
+            <ul className='flex overflow-x-auto gap-16 pb-5 xl:gap-8'>
                 <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 
@@ -79,7 +79,7 @@ const Products = () => {
                 <p className='text-[15px] gap-1 font-semibold pt-5 text-black flex items-center'>Shop All Products <span><ion-icon name="arrow-forward"></ion-icon></span></p>
             </div>
     
-            <ul className='flex overflow-x-auto gap-16 xl:gap-8'>
+            <ul className='flex overflow-x-auto pb-4 gap-16 xl:gap-8'>
                 <li className='min-w-full md:min-w-[calc(50%-15px)] lg:min-w-[calc(33.33%-20px)] xl:min-w-[calc(20%-24px)]'>
                     <Items
                     title='Facial cleanser' 

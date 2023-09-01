@@ -13,7 +13,7 @@ const Navbar = () => {
       })
 
   return (
-    <nav className={`${isActive ? 'bg-white fixed z-50 transition-all ease-in-out shadow-lg' : 'bg-white'} w-screen`}>
+    <header className={`${isActive ? 'bg-white fixed z-50 transition-all ease-in-out shadow-lg' : 'bg-white'} justify-center w-screen `}>
         <div className=' w-screen bg-[--pale-spring-bud] p-1'>
             <p className='text-black font-bold text-sm text-center'>Free Shipping On All U.S. Orders $50+</p>
         </div>
@@ -61,15 +61,15 @@ const Navbar = () => {
 
         </div>
 
-        <div className={`${isActive ? 'bg-white fixed z-50 transition-all ease-in-out shadow-lg' : 'bg-white'} hidden xl:flex justify-center w-screen `}>
-            <ul className='flex justify-center py-3 items-center gap-8 text-black text-[20px]'>
+        <nav className={`${isActive ? 'bg-white absolute z-50 transition-all ease-in-out shadow-lg' : 'bg-white'} hidden xl:flex justify-center w-screen `}>
+            <ul className='flex justify-center py-3 items-center gap-8 text-black text-[15px]'>
                 <li><a className='hover:text-[--hoockers-green]' href="#">Home</a></li>
                 <li><a className='hover:text-[--hoockers-green]' href="#">About</a></li>
                 <li><a className='hover:text-[--hoockers-green]' href="#">Products</a></li>
                 <li><a className='hover:text-[--hoockers-green]' href="#">Blog</a></li>
                 <li><a className='hover:text-[--hoockers-green]' href="#">Contact</a></li>
             </ul>
-        </div>
+        </nav>
 
 
 
@@ -100,7 +100,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
-    </nav>
+    </header>
   )
 }
 
